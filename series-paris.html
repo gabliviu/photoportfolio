@@ -1,0 +1,475 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Fri Oct 27 2023 14:09:43 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65261ede1084758d8cf4abe4" data-wf-site="651ddc6350681e571278f342">
+<head>
+  <meta charset="utf-8">
+  <title>series-paris</title>
+  <meta content="series-paris" property="og:title">
+  <meta content="series-paris" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/gabliviu-photo-portfolio-with-client-fi.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Varela Round:400","Varela:400","Great Vibes:400","Changa One:400,400italic","Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic","Oswald:200,300,400,500,600,700","Inconsolata:400,700","Nunito Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic","Alkatra:regular,500,600,700","Bebas Neue:regular","Work Sans:100,200,300,regular,500,600,700,800,900,italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+    </div>
+    <main class="main-wrapper series-wrapper">
+      <div class="split-in-two">
+        <div class="left-side series">
+          <div id="w-node-_9eea3fa7-a29a-8cb3-06f7-c4a21153aa91-8cf4abe4" class="nav-bar series">
+            <div class="navbar-final contact-navbar">
+              <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+                <div class="div-block-3">
+                  <a href="index.html" class="brand w-nav-brand"><img src="images/logobigger.jpg" loading="lazy" alt="" class="image"></a>
+                  <div class="menu-button w-nav-button">
+                    <div class="w-icon-nav-menu"></div>
+                  </div>
+                  <nav role="navigation" class="nav-menu w-nav-menu">
+                    <a data-w-id="1d9fa348-c53d-54ed-c406-788de3b455b2" href="about.html" class="link-block-4 about-div w-inline-block">
+                      <div class="text-block-27">about</div>
+                      <div class="underline u-about"></div>
+                    </a>
+                    <a data-w-id="1d9fa348-c53d-54ed-c406-788de3b455b6" href="series.html" class="link-block-4 w-inline-block">
+                      <div class="text-block-28">series</div>
+                      <div class="underline u-series"></div>
+                    </a>
+                    <a data-w-id="1d9fa348-c53d-54ed-c406-788de3b455ba" href="#" class="prints-link w-inline-block">
+                      <div class="text-block-29">prints</div>
+                      <div class="coming-soon">coming soon</div>
+                      <div class="rrright">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</div>
+                      <div class="underline u-prints"></div>
+                    </a>
+                    <a data-w-id="1d9fa348-c53d-54ed-c406-788de3b455c2" href="contact-me.html" class="link-block-4 contact-div w-inline-block">
+                      <div class="text-block-30">contact</div>
+                      <div class="underline u-contact"></div>
+                    </a>
+                    <a href="about.html" class="nav-link nav-link-smallerthandesktop w-nav-link">about</a>
+                    <a href="series.html" class="nav-link nav-link-smallerthandesktop w-nav-link">series</a>
+                    <a href="prints.html" class="nav-link nav-link-smallerthandesktop w-nav-link">prints</a>
+                    <a href="contact-me.html" class="nav-link nav-link-smallerthandesktop w-nav-link">contact</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-_9eea3fa7-a29a-8cb3-06f7-c4a21153aa93-8cf4abe4" class="main-body-grid series">
+            <div class="paris-photo-scroll">
+              <div class="row1">
+                <div class="spacer-large diff"><img src="images/bike-boy.jpg" loading="lazy" sizes="100vw" srcset="images/bike-boy-p-500.jpg 500w, images/bike-boy-p-800.jpg 800w, images/bike-boy-p-1080.jpg 1080w, images/bike-boy-p-1600.jpg 1600w, images/bike-boy-p-2000.jpg 2000w, images/bike-boy-p-2600.jpg 2600w, images/bike-boy-p-3200.jpg 3200w, images/bike-boy.jpg 5184w" alt="" class="_3busses"><img src="images/three-tokyo-busses.jpg" loading="lazy" sizes="100vw" srcset="images/three-tokyo-busses-p-500.jpg 500w, images/three-tokyo-busses-p-800.jpg 800w, images/three-tokyo-busses-p-1080.jpg 1080w, images/three-tokyo-busses-p-1600.jpg 1600w, images/three-tokyo-busses-p-2000.jpg 2000w, images/three-tokyo-busses.jpg 2132w" alt="" class="_3busses"><img src="images/boxes-guys.jpg" loading="lazy" sizes="100vw" srcset="images/boxes-guys-p-500.jpg 500w, images/boxes-guys-p-800.jpg 800w, images/boxes-guys-p-1080.jpg 1080w, images/boxes-guys-p-1600.jpg 1600w, images/boxes-guys-p-2000.jpg 2000w, images/boxes-guys-p-2600.jpg 2600w, images/boxes-guys-p-3200.jpg 3200w, images/boxes-guys.jpg 5184w" alt="" class="_3busses"><img src="images/subwaiting.jpg" loading="lazy" sizes="100vw" srcset="images/subwaiting-p-500.jpg 500w, images/subwaiting-p-800.jpg 800w, images/subwaiting-p-1080.jpg 1080w, images/subwaiting-p-1600.jpg 1600w, images/subwaiting-p-2000.jpg 2000w, images/subwaiting.jpg 2501w" alt="" class="_3busses"><img src="images/taxi-night-hotel.jpg" loading="lazy" sizes="100vw" srcset="images/taxi-night-hotel-p-500.jpg 500w, images/taxi-night-hotel-p-800.jpg 800w, images/taxi-night-hotel-p-1080.jpg 1080w, images/taxi-night-hotel-p-1600.jpg 1600w, images/taxi-night-hotel-p-2000.jpg 2000w, images/taxi-night-hotel.jpg 2368w" alt="" class="_3busses"><img src="images/taxi-driver.jpg" loading="lazy" sizes="100vw" srcset="images/taxi-driver-p-500.jpg 500w, images/taxi-driver-p-800.jpg 800w, images/taxi-driver-p-1080.jpg 1080w, images/taxi-driver-p-1600.jpg 1600w, images/taxi-driver-p-2000.jpg 2000w, images/taxi-driver.jpg 2356w" alt="" class="_3busses"><img src="images/taxi-driver-2.jpg" loading="lazy" sizes="100vw" srcset="images/taxi-driver-2-p-500.jpg 500w, images/taxi-driver-2-p-800.jpg 800w, images/taxi-driver-2-p-1080.jpg 1080w, images/taxi-driver-2-p-1600.jpg 1600w, images/taxi-driver-2-p-2000.jpg 2000w, images/taxi-driver-2.jpg 2372w" alt="" class="_3busses"><img src="images/taxi-driver-4.jpg" loading="lazy" sizes="100vw" srcset="images/taxi-driver-4-p-500.jpg 500w, images/taxi-driver-4-p-800.jpg 800w, images/taxi-driver-4-p-1080.jpg 1080w, images/taxi-driver-4-p-1600.jpg 1600w, images/taxi-driver-4-p-2000.jpg 2000w, images/taxi-driver-4.jpg 2441w" alt="" class="_3busses"><img src="images/taxi-driver-3.jpg" loading="lazy" sizes="100vw" srcset="images/taxi-driver-3-p-500.jpg 500w, images/taxi-driver-3-p-800.jpg 800w, images/taxi-driver-3-p-1080.jpg 1080w, images/taxi-driver-3-p-1600.jpg 1600w, images/taxi-driver-3-p-2000.jpg 2000w, images/taxi-driver-3.jpg 2373w" alt="" class="_3busses"><img src="images/buildings-2.jpg" loading="lazy" sizes="100vw" srcset="images/buildings-2-p-500.jpg 500w, images/buildings-2-p-800.jpg 800w, images/buildings-2-p-1080.jpg 1080w, images/buildings-2-p-1600.jpg 1600w, images/buildings-2-p-2000.jpg 2000w, images/buildings-2.jpg 2368w" alt="" class="_3busses"><img src="images/typical-street-2.jpg" loading="lazy" sizes="100vw" srcset="images/typical-street-2-p-500.jpg 500w, images/typical-street-2-p-800.jpg 800w, images/typical-street-2-p-1080.jpg 1080w, images/typical-street-2-p-1600.jpg 1600w, images/typical-street-2-p-2000.jpg 2000w, images/typical-street-2.jpg 2374w" alt="" class="_3busses"></div>
+              </div>
+              <div class="paris_hero_row1">
+                <div class="paris_row-1-5">
+                  <div class="space_12-5"></div>
+                  <div class="paris-postcards-wrapper">
+                    <div class="paris-postcardsfrom">postcards<br>from</div>
+                    <div class="paris">paris</div>
+                    <div class="text-block-26">postcards from</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row2">
+                <div class="space_10---5-tablet"></div>
+                <div class="paris_text-row1">
+                  <div class="paris_text1"><span class="paris-span">&quot;In the manner that&#x27;s often customary to my solo voyages, I set out without much of a blueprint in mind. A month stretched before me, an expanse of time in which the city&#x27;s avenues and alleyways could reveal themselves at their own pace. Thousands of steps and an almost sinful indulgence in the freshest of seafoods later, I&#x27;ve come back, not just with memories, but with a cache of stills capturing moments from the journey.&quot;</span><span class="span-style-copy">‍</span></div><img src="images/FXT28248.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 30vw, (max-width: 1279px) 24vw, (max-width: 1919px) 26vw, 25vw" srcset="images/FXT28248-p-500.jpg 500w, images/FXT28248-p-800.jpg 800w, images/FXT28248.jpg 1000w" alt="" class="paris_photo_soccerguy">
+                </div>
+                <div class="space_5"></div>
+                <div class="paris_wrapper_taxi"><img src="images/FXT28511.jpg" loading="lazy" sizes="(max-width: 479px) 59vw, (max-width: 767px) 50vw, (max-width: 991px) 45vw, (max-width: 1919px) 36vw, 35vw" srcset="images/FXT28511-p-500.jpg 500w, images/FXT28511.jpg 533w" alt="" class="paris_photo-waiter-mme">
+                  <div class="top-left-corner-framed"></div>
+                  <div class="bottom-right-corner-framed"></div>
+                </div>
+                <div class="space_10-copy"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row3">
+                <div class="paris_photo_windows-wrapper"><img src="images/FXT28513.jpg" loading="lazy" alt="" class="paris_photo-windows"></div>
+                <div class="paris-photo-alfa-wrapper"><img src="images/IMG_5427.jpg" loading="lazy" alt="" class="paris-photo-alfa"></div>
+                <div class="space_5 desktop-dissapear"></div>
+                <div class="paris_photo_benz-wrapper"><img src="images/FXT28480.jpg" loading="lazy" sizes="(max-width: 479px) 55vw, (max-width: 767px) 45vw, (max-width: 991px) 30vw, 24vw" srcset="images/FXT28480-p-500.jpg 500w, images/FXT28480.jpg 533w" alt="" class="paris-photo-benz"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row4">
+                <div class="paris_photo_anciens-wrapper"><img src="images/2022_0722_14485500.jpg" loading="lazy" sizes="(max-width: 479px) 99vw, (max-width: 991px) 100vw, 80vw" srcset="images/2022_0722_14485500-p-500.jpg 500w, images/2022_0722_14485500-p-800.jpg 800w, images/2022_0722_14485500-p-1080.jpg 1080w, images/2022_0722_14485500.jpg 1200w" alt="" class="paris_photo_anciens"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row5">
+                <div class="space_5"></div>
+                <div class="paris-text">
+                  <div class="tokyo_text-custom-3"><span class="paris-span">&quot;Tokyo&#x27;s heartbeat is its people. Always on the move, they flow through the city with a purposeful grace. Day or night, the streets pulse with energy, as locals navigate narrow alleys and broad avenues alike. It&#x27;s a dance of precision and fluidity, where the city never truly rests.</span></div>
+                </div>
+                <div class="space_5"></div>
+                <div class="paris_photo_trio-wrapper"><img src="images/2022_0722_14490100.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 60vw, 48vw" srcset="images/2022_0722_14490100-p-500.jpg 500w, images/2022_0722_14490100-p-800.jpg 800w, images/2022_0722_14490100.jpg 1000w" alt="" class="paris_photo_trio"></div>
+                <div class="space_5"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row6">
+                <div class="paris_row6-1">
+                  <div class="space_5"></div>
+                  <div data-w-id="a530e351-43c2-dd4b-cde5-a675ebff6ca7" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_postcards-wrapper"><img src="images/FXT28626.jpg" loading="lazy" alt="" class="paris_photo-postcards"></div>
+                  <div class="space_5">
+                    <div class="space_5"></div>
+                  </div>
+                  <div data-w-id="a530e351-43c2-dd4b-cde5-a675ebff6caa" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris-photo-street-wrapper"><img src="images/2022_0722_14492400.jpg" loading="lazy" alt="" class="paris-photo-street"></div>
+                  <div class="space_5">
+                    <div class="space_5"></div>
+                  </div>
+                  <div data-w-id="a530e351-43c2-dd4b-cde5-a675ebff6cad" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_window-wrapper"><img src="images/FXT28452.jpg" loading="lazy" alt="" class="paris-photo-window"></div>
+                  <div class="space_5"></div>
+                </div>
+                <div class="paris_row6-2">
+                  <div class="space_5"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="b11a3d6c-0a5e-a263-c12a-79604feafa1e" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_garage-wrapper"><img src="images/2022_0722_14485000.jpg" loading="lazy" alt="" class="paris_photo-garage"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="b11a3d6c-0a5e-a263-c12a-79604feafa21" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris-photo-smallcar-wrapper"><img src="images/2022_0722_14472100.jpg" loading="lazy" alt="" class="paris-photo-smallcar"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="b11a3d6c-0a5e-a263-c12a-79604feafa24" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_scootergirl-wrapper"><img src="images/2022_0722_14472700.jpg" loading="lazy" alt="" class="paris-photo-scootergirl"></div>
+                  <div class="space_5"></div>
+                </div>
+                <div class="paris_row6-3">
+                  <div class="space_5"></div>
+                  <div data-w-id="48ec1594-d465-9023-7b29-16c95825c793" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_rangerover-wrapper"><img src="images/FXT28523.jpg" loading="lazy" alt="" class="paris_photo-rangerover"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="48ec1594-d465-9023-7b29-16c95825c796" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris-photo-xj6-wrapper"><img src="images/FXT28466.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 25vw, 20vw" srcset="images/FXT28466-p-500.jpg 500w, images/FXT28466.jpg 533w" alt="" class="paris-photo-xj6"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="48ec1594-d465-9023-7b29-16c95825c799" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_elevator-wrapper"><img src="images/FXT28461.jpg" loading="lazy" alt="" class="paris-photo-elevator"></div>
+                  <div class="space_5 desktop-dissapear"></div>
+                  <div class="space_5"></div>
+                </div>
+                <div class="paris_row6-4">
+                  <div class="space_5"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="0ef1da41-a690-44b9-0166-76972fac0bb7" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_churchtop-wrapper"><img src="images/FXT28756.jpg" loading="lazy" alt="" class="paris_photo-churchtop"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="0ef1da41-a690-44b9-0166-76972fac0bba" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris-photo-streetblue-wrapper"><img src="images/FXT29990.jpg" loading="lazy" alt="" class="paris-photo-bluestreet"></div>
+                  <div class="space_5"></div>
+                  <div data-w-id="0ef1da41-a690-44b9-0166-76972fac0bbd" style="-webkit-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="paris_photo_movingcar-wrapper"><img src="images/FXT28625.jpg" loading="lazy" alt="" class="paris-photo-movingcar"></div>
+                </div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row7">
+                <div class="space_10"></div>
+                <div class="paris_text-custom-2-copy"><span class="paris-span">&quot;The taxis stood out immediately. Bright and impeccably kept, many were throwbacks to the late &#x27;80s. As they zipped under neon lights, they represented Tokyo&#x27;s blend of old and new. With their white-gloved drivers and quiet efficiency, these cars were more than transport—they were a brief immersion into the city&#x27;s unique rhythm, where yesterday meets today.&quot;</span></div>
+              </div>
+              <div class="row-padding-5rem"></div>
+              <div class="paris_row8">
+                <div class="space_10"></div>
+                <div class="paris_wrapper-cafe"><img src="images/IMG_5421.jpg" loading="lazy" sizes="(max-width: 991px) 50vw, 40vw" srcset="images/IMG_5421-p-500.jpg 500w, images/IMG_5421.jpg 800w" alt="" class="paris_cafe_image"></div>
+                <div class="space_10---5-tablet"></div>
+                <div class="paris_wrapper-arctriomphe"><img src="images/FXT28506.jpg" loading="lazy" alt="" class="paris-image-arctriomphe"></div>
+              </div>
+              <div class="row-padding-2rem"></div>
+              <div class="paris_row9">
+                <div class="space_10"></div>
+                <div class="paris_wrapper-roundbuilding"><img src="images/FXT28478.jpg" loading="lazy" alt="" class="paris-image-roundbuilding"></div>
+                <div class="space_10---5-tablet"></div>
+                <div class="paris_wrapper-nike"><img src="images/FXT28364.jpg" loading="lazy" sizes="(max-width: 991px) 50vw, 40vw" srcset="images/FXT28364-p-500.jpg 500w, images/FXT28364-p-800.jpg 800w, images/FXT28364.jpg 1000w" alt="" class="paris_cafe_nike"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row10">
+                <div class="space_10"></div>
+                <div class="paris_wrapper-trio"><img src="images/2022_0722_14490100.jpg" loading="lazy" sizes="(max-width: 479px) 79vw, (max-width: 991px) 80vw, 64vw" srcset="images/2022_0722_14490100-p-500.jpg 500w, images/2022_0722_14490100-p-800.jpg 800w, images/2022_0722_14490100.jpg 1000w" alt="" class="paris-image-trio"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row11">
+                <div class="paris-wrapper-cafeflore"><img src="images/FXT28578.jpg" loading="lazy" alt="" class="paris_image-cafeflore"></div>
+                <div class="space_10---5-tablet"></div>
+                <div class="paris-wrapper-alpine"><img src="images/FXT28434.jpg" loading="lazy" sizes="(max-width: 479px) 52vw, (max-width: 991px) 50vw, (max-width: 1279px) 38vw, (max-width: 1919px) 40vw, 38vw" srcset="images/FXT28434-p-500.jpg 500w, images/FXT28434.jpg 800w" alt="" class="paris-image-alpine"></div>
+              </div>
+              <div class="row-padding-5rem"></div>
+              <div class="paris_row12">
+                <div class="space_10"></div>
+                <div class="paris_text-custom-2-copy-copy"><span class="paris-span">&quot;The taxis stood out immediately. Bright and impeccably kept, many were throwbacks to the late &#x27;80s. As they zipped under neon lights, they represented Tokyo&#x27;s blend of old and new. With their white-gloved drivers and quiet efficiency, these cars were more than transport—they were a brief immersion into the city&#x27;s unique rhythm, where yesterday meets today.&quot;</span></div>
+                <div class="space_10"></div>
+              </div>
+              <div class="row-padding-5rem"></div>
+              <div class="paris_row13">
+                <div class="space_10"></div>
+                <div class="paris_wrapper-arlequin1"><img src="images/IMG_5293.jpg" loading="lazy" alt="" class="arlequin1"></div>
+                <div class="space_5"></div>
+                <div class="paris_wrapper-arlequin2"><img src="images/IMG_5282.jpg" loading="lazy" sizes="(max-width: 479px) 37vw, (max-width: 991px) 60vw, 48vw" srcset="images/IMG_5282-p-500.jpg 500w, images/IMG_5282.jpg 800w" alt="" class="paris-image-arlequin2"></div>
+              </div>
+              <div class="row-padding-2rem"></div>
+              <div class="paris_row14">
+                <div class="paris_wrapper-arlequin3"><img src="images/IMG_5292.jpg" loading="lazy" sizes="(max-width: 479px) 37vw, (max-width: 991px) 60vw, 48vw" srcset="images/IMG_5292-p-500.jpg 500w, images/IMG_5292.jpg 800w" alt="" class="paris-image-arlequin3"></div>
+                <div class="space_5"></div>
+                <div class="paris_wrapper-arlequin4"><img src="images/IMG_5277.jpg" loading="lazy" sizes="(max-width: 991px) 25vw, 20vw" srcset="images/IMG_5277-p-500.jpg 500w, images/IMG_5277-p-800.jpg 800w, images/IMG_5277.jpg 900w" alt="" class="paris_cafe_arlequin4"></div>
+                <div class="space_10"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row15">
+                <div class="space_10"></div>
+                <div class="paris_wrapper-mmeetage"><img src="images/IMG_5448.jpg" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 991px) 80vw, 64vw" srcset="images/IMG_5448-p-500.jpg 500w, images/IMG_5448-p-800.jpg 800w, images/IMG_5448-p-1080.jpg 1080w, images/IMG_5448.jpg 1200w" alt="" class="paris-image-mmeetage"></div>
+              </div>
+              <div class="row-padding-5rem-2remlandscape"></div>
+              <div class="paris_row16">
+                <div class="paris_wrapper-buildinghistoric"><img src="images/FXT28682.jpg" loading="lazy" sizes="(max-width: 479px) 21vw, (max-width: 991px) 30vw, 24vw" srcset="images/FXT28682-p-500.jpg 500w, images/FXT28682.jpg 800w" alt="" class="paris_photo-buildinghistoric"></div>
+                <div class="space_5"></div>
+                <div class="paris-photo-train"><img src="images/FXT20124.jpg" loading="lazy" alt="" class="paris-photo-trainup"></div>
+                <div class="space_5"></div>
+                <div class="paris_wrapper-building"><img src="images/FXT20127.jpg" loading="lazy" alt="" class="paris-photo-building"></div>
+              </div>
+              <div class="row-padding-6rem"></div>
+              <div class="socials">
+                <div class="center-socials">
+                  <div class="email-footer">
+                    <a href="mailto:n.l.gabriel@hotmail.com" class="link">email</a>
+                  </div>
+                  <div class="instagram-footer">
+                    <a href="https://www.instagram.com/gabliviu/" target="_blank" class="link insta">instagram</a>
+                  </div>
+                  <div class="linkedin-footer">
+                    <a href="http://www.linkedin.com/in/gabriel-liviu-94b958149" target="_blank" class="link linkedin">linkedin</a>
+                  </div>
+                </div>
+              </div>
+              <div class="side-left-scroll-interaction">
+                <div class="the-line"></div>
+                <div class="line-title-wrapper">
+                  <div class="text-block-34">taxis at night</div>
+                </div>
+              </div>
+              <div class="socials-tokyo">
+                <div class="center-socials">
+                  <div class="email-footer">
+                    <a href="mailto:n.l.gabriel@hotmail.com" class="link">email</a>
+                  </div>
+                  <div class="instagram-footer">
+                    <a href="https://www.instagram.com/gabliviu/" target="_blank" class="link insta">instagram</a>
+                  </div>
+                  <div class="linkedin-footer">
+                    <a href="http://www.linkedin.com/in/gabriel-liviu-94b958149" target="_blank" class="link linkedin">linkedin</a>
+                  </div>
+                </div>
+              </div>
+              <div class="makoto"></div>
+            </div>
+            <div class="style-guide">
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+              <div class="style-guide column"></div>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_9eea3fa7-a29a-8cb3-06f7-c4a21153aacd-8cf4abe4" class="series-rightside rightside-tokyo">
+          <div class="right-side">
+            <div class="dropdown-div drop-notdown">
+              <div data-w-id="10936c26-43a4-2e6d-035c-fba120951f06" class="dropdown-trigger">
+                <div class="series_dropdown-wrapper">
+                  <div class="dropdown-title series_paris-dropdowntitle">paris</div>
+                  <div data-w-id="10936c26-43a4-2e6d-035c-fba120951f0a" class="plus">+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-_5c6fc8c7-b3c7-9dbe-525b-94ae757791c2-757791c2" class="series-rightside rightside-tokyo">
+            <div class="dropdown-div this-drop">
+              <div class="dropdown-content">
+                <a href="series-paris.html" aria-current="page" class="text-inside-dropdown paris-block w-inline-block w--current">
+                  <div class="dropdown-paris">paris</div>
+                </a>
+                <a href="series-tokyo.html" class="text-inside-dropdown tokyo-block w-inline-block">
+                  <div class="dropdown-tokyo">tokyo</div>
+                </a>
+                <a href="series-indonesia.html" class="text-inside-dropdown indonesia-block w-inline-block">
+                  <div class="dropdown-indonesia">indonesia</div>
+                </a>
+                <a href="series-montreal.html" class="text-inside-dropdown montrea-block w-inline-block">
+                  <div class="dropdown-montreal">montreal</div>
+                </a>
+                <a href="series-iceland.html" class="text-inside-dropdown iceland-block w-inline-block">
+                  <div class="dropdown-iceland">iceland</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=651ddc6350681e571278f342" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
